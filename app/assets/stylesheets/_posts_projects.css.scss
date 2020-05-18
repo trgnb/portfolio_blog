@@ -1,3 +1,9 @@
+$dark:#424652;
+$light: #9a9da4;
+$white: #FFFFFF;
+$highlight: #8bc6db;
+$border: #E9E9E9;
+
 #posts-wrapper {
   padding: 3em 0;
   .post {
@@ -23,6 +29,64 @@
     }
   }
 }
+// posts show page
+
+// - - - - - - Posts Show
+
+#post-show-content {
+  header {
+    text-align: center;
+    .date {
+      font-size: .9em;
+      color: $light;
+      margin: 0;
+    }
+    h1 {
+      margin: 0;
+    }
+  }
+  hr {
+    margin: 3em auto;
+  }
+}
+
+#share-box {
+  text-align: center;
+  p {
+    padding: 0 0 1em 0;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $dark;
+    font-size: .8em;
+  }
+  i {
+    color: $dark;
+    padding: 1em 1.5em;
+    &:hover {
+      color: $highlight;
+      cursor: pointer;
+    }
+  }
+}
+
+#admin_links {
+  border-top: 1px solid $border;
+  border-bottom: 1px solid $border;
+  text-align: center;
+  padding: 1em 0;
+  margin: 3em 0;
+  a {
+    color: $light;
+    margin: 0 1em;
+    font-weight: 700;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+
+
 
 //  ----- pagination
 
