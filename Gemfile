@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'pygments.rb', '~> 0.6.0'
 gem 'friendly_id', '~> 5.2.4'
-gem 'redcarpet', '~> 3.2.2'
+gem 'redcarpet', '~> 3.5.1'
 gem 'will_paginate', '~> 3.1.7'
 
 # Reduces boot times through caching; required in config/boot.rb
